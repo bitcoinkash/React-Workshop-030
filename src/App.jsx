@@ -16,7 +16,7 @@ function App() {
 
     <div>
 
-    <Header />
+    <Header /> 
     <Navigation />
     <Mainnew />
     <Section />
