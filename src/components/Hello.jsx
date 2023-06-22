@@ -11,7 +11,8 @@ export default function Hello({prop}) {
     return (
         <>
 
-        <h1>Hello {prop} {myProperty}</h1>
+        <h1>Hello {prop}</h1>
+            <h1> Be {myProperty}</h1>
         </>
     )
 }

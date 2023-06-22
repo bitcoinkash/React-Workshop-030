@@ -13,11 +13,11 @@ function App() {
 
 
   return (
-    
+
     <div>
 
-      <Navigation />
     <Header />
+    <Navigation />
     <Mainnew />
     <Section />
     <Footer />
