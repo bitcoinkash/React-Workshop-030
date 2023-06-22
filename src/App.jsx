@@ -6,6 +6,7 @@ import Header from './components/header';
 import Navigation from './components/navigation';
 import Section from './components/section';
 import './App.css'
+import Data from './Data';
 
 
 
@@ -18,7 +19,7 @@ function App() {
 
     <Header /> 
     <Navigation />
-    <Mainnew />
+    <Mainnew appname = {Data().name}/>
     <Section />
     <Footer />
     

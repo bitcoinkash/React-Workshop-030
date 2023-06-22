@@ -3,10 +3,10 @@ import Hello from './Hello';
 
 const name = "John";
 
-export default function Mainnew() {
+export default function Mainnew({appname}) {
     return (
         <>
-            <Hello prop={name} />
+            <Hello appname ={appname} name={name} />
         </>
     )
 }
